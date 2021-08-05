@@ -12,6 +12,6 @@ const wallet = new nearApi.WalletConnection(near, 'first-blood-login');
 document.getElementById('login').addEventListener('click', () => {
   wallet.requestSignIn({
     contractId: 'near',
-    callbackUrl: params.get('callbackUrl')
+    successUrl: params.get('callbackUrl')
   });
 });
