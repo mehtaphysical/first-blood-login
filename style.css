@@ -7,7 +7,7 @@ button {
   border-radius: 5px;
   margin-top: 20px;
   background-color: #7a59db;
-  width: 200px;
+  width: 225px;
   height: 50px;
   font-size: medium;
   font-family: "Poppins", sans-serif;
@@ -23,4 +23,9 @@ button:hover {
 
 .button-container {
   text-align: center;
+}
+
+.logo-container {
+  text-align: center;
+  margin-top: 30px;
 }
